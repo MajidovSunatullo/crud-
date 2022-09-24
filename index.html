@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container d-flex justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><button type="button" class="btn btn-success" data-toggle="modal" data-target="#demo">Add</button></li>
+            </ul>
+        </div>
+    
+        <div class="modal" id="demo">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Add Employee</h5>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="form-control" placeholder="FirstName" id="first-name">
+    
+                        <input type="text" class="form-control mt-3" placeholder="LastName" id="last-name">
+    
+                        <input type="number" class="form-control mt-3" placeholder="Age" id="age">
+    
+                        <input type="number" class="form-control mt-3" placeholder="Price" id="price">
+    
+                        <select class="form-control mt-3" id="position">
+                            <option value="CEO">CEO</option>
+                            <option value="Manager">Manager</option>
+                            <option value="Programmer">Programmer</option>
+                            <option value="Security">Security</option>
+                        </select>
+    
+                        <button type="button" class="btn btn-success btn-block mt-3" data-dismiss="modal" onclick="addEmployee()">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <div class="progress">
+                    <div class="progress-bar" style="width: 0;" id="progress"></div>
+                </div>
+            </div>
+    
+            <div class="col-6">
+                <div class="row" id="result1"></div>
+            </div>
+            <div class="col-6">
+                <div class="row" id="result2"></div>
+            </div>
+        </div>
+    </div>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+.navbar .container-fluid ul a:hover {
+  border-style: dashed;
+  color: green;
+}
+
+.box{
+  width: 22.5%;
+   display: flex;
+justify-content: space-between;
+  margin-left: 10px;
+ }
+
+.box h2{
+  color: green;
+}
+
+
+.box p{
+  position: absolute;
+  width: 190px;
+  height: 48px;
+
+
+  font-family: Exo ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+
+.box1{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 90px;
+}
+
+.box1 h2{
+  color: green;
+}
+
+.box1 p{
+  position: absolute;
+  width: 190px;
+  height: 108px;
+
+
+  font-family: Exo ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+.werb p{
+  position: absolute;
+  width: 430px;
+  height: 152px;
+  top: 10px;
+  left: 15px;
+
+  font-family: Exo ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+
+  color: #808080;
+}
+
+.werb{
+  position: absolute;
+  width: 460px;
+  height: 185px;
+  left: 435px;
+  top: 276px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
